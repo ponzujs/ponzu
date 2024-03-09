@@ -27,5 +27,9 @@
   },
   "dependencies": {
     "pino": "^8.19.0"
-  }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "3dfce0d1475eb400eb58eeafec6b82333b438ab9"
 }

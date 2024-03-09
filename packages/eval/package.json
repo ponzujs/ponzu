@@ -29,5 +29,9 @@
     "@ponzujs/core": "^0.0.1",
     "escodegen": "^2.1.0",
     "esprima": "^4.0.1"
-  }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "3dfce0d1475eb400eb58eeafec6b82333b438ab9"
 }
