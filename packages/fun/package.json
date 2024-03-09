@@ -1,6 +1,6 @@
 {
   "name": "@ponzujs/fun",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "> TODO: description",
   "author": "Jesús Seijas <jseijas@gmail.com>",
   "homepage": "",
@@ -26,6 +26,6 @@
     "prettier": "^3.2.5"
   },
   "dependencies": {
-    "@ponzujs/core": "^0.0.0"
+    "@ponzujs/core": "^0.0.1"
   }
 }
