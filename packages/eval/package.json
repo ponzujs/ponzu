@@ -1,6 +1,6 @@
 {
   "name": "@ponzujs/eval",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "> TODO: description",
   "author": "Jesús Seijas <jseijas@gmail.com>",
   "homepage": "",
@@ -26,8 +26,8 @@
     "prettier": "^3.2.5"
   },
   "dependencies": {
-    "@ponzujs/core": "^0.0.3",
-    "@ponzujs/fun": "^0.0.3",
+    "@ponzujs/core": "^0.0.4",
+    "@ponzujs/fun": "^0.0.4",
     "acorn": "^8.11.3",
     "escodegen": "^2.1.0"
   },
