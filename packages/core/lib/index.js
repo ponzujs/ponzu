@@ -11,6 +11,7 @@ const isFunction = require('./is-function');
 const logger = require('./logger');
 const serialize = require('./serialize');
 const shelveManager = require('./shelve-manager');
+const uuid = require('./uuid');
 
 module.exports = {
   ...cache,
@@ -26,4 +27,5 @@ module.exports = {
   ...logger,
   ...serialize,
   ...shelveManager,
+  ...uuid,
 };

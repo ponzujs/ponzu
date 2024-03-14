@@ -6,6 +6,7 @@ const always = require('./always');
 const and = require('./and');
 const andFn = require('./and-fn');
 const andOp = require('./and-op');
+const approve = require('./approve');
 const asArrayLike = require('./as-array-like');
 const atIndex = require('./at-index');
 const atPath = require('./at-path');
@@ -58,6 +59,8 @@ const merge = require('./merge');
 const min = require('./min');
 const modOp = require('./mod-op');
 const mod = require('./mod');
+const multOp = require('./mult-op');
+const mult = require('./mult');
 const negate = require('./negate');
 const none = require('./none');
 const not = require('./not');
@@ -91,6 +94,7 @@ module.exports = {
   ...and,
   ...andFn,
   ...andOp,
+  ...approve,
   ...asArrayLike,
   ...atIndex,
   ...atPath,
@@ -143,6 +147,8 @@ module.exports = {
   ...min,
   ...modOp,
   ...mod,
+  ...multOp,
+  ...mult,
   ...negate,
   ...none,
   ...not,

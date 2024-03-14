@@ -32,12 +32,17 @@ function expect(actual) {
     toHaveLength(expected) {
       assert.strictEqual(actual.length, expected);
     },
-    toThrow(expected) {
-      assert.throws(actual, `Error: ${expected}$`);
+    async toThrow(expected) {
+      try {
+        await actual();
+        assert.fail('Function did not throw');
+      } catch (error) {
+        assert.strictEqual(error.message, expected);
+      }
     },
     toBeNaN() {
-      assert.ok(isNaN(actual));
-    }
+      assert.ok(Number.isNaN(actual));
+    },
   };
 }
 module.exports = { expect };

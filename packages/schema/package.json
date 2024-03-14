@@ -1,5 +1,5 @@
 {
-  "name": "@ponzujs/eval",
+  "name": "@ponzujs/schema",
   "version": "0.0.2",
   "description": "> TODO: description",
   "author": "Jesús Seijas <jseijas@gmail.com>",
@@ -26,10 +26,7 @@
     "prettier": "^3.2.5"
   },
   "dependencies": {
-    "@ponzujs/core": "^0.0.2",
-    "@ponzujs/fun": "^0.0.2",
-    "acorn": "^8.11.3",
-    "escodegen": "^2.1.0"
+    "@ponzujs/core": "^0.0.2"
   },
   "publishConfig": {
     "access": "public"
