@@ -660,5 +660,6 @@ async function evaluate(str, srcScope) {
 }
 
 module.exports = {
+  walkFunctionExecution,
   evaluate,
 };
