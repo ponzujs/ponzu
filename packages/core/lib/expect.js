@@ -14,6 +14,9 @@ function expect(actual) {
     toEqual(expected) {
       assert.deepStrictEqual(actual, expected);
     },
+    toNotEqual(expected) {
+      assert.notDeepStrictEqual(actual, expected);
+    },
     toBeDefined() {
       assert.notStrictEqual(actual, undefined);
     },

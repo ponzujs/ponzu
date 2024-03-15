@@ -1,6 +1,6 @@
 const { describe, it } = require('node:test');
+const fs = require('node:fs');
 const { expect } = require('@ponzujs/core');
-const fs = require('fs');
 const { XBook } = require('../lib');
 
 describe('Rules', () => {
