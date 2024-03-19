@@ -6,6 +6,7 @@ const consoleLogger = require('./console-logger');
 const deserialize = require('./deserialize');
 const expect = require('./expect');
 const factory = require('./factory');
+const getMethods = require('./get-methods');
 const ioc = require('./ioc');
 const isFunction = require('./is-function');
 const logger = require('./logger');
@@ -22,6 +23,7 @@ module.exports = {
   ...deserialize,
   ...expect,
   ...factory,
+  ...getMethods,
   ...ioc,
   ...isFunction,
   ...logger,
