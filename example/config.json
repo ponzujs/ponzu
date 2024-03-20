@@ -1,0 +1,40 @@
+{
+  "databases": {
+    "main": {
+      "default": {
+        "provider": "Mongodb",
+        "url": "mongodb://127.0.0.1:27017/test_tenants",
+        "envelopes": ["logged"],
+        "collections": {
+          "tenants": {
+            "envelopes": [
+              {
+                "type": "cached",
+                "indexFields": [
+                  "tenantId"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "jsons": {
+        "provider": "FsProvider",
+        "folder": "./data",
+        "isJson": true,
+        "envelopes": ["logged"],
+        "collections": {
+          "jsons": {}
+        }
+      },
+      "images": {
+        "provider": "FsProvider",
+        "folder": "./data",
+        "isJson": false,
+        "collections": {
+          "images": {}
+        }
+      }
+    }
+  }
+}
