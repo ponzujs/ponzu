@@ -1,6 +1,6 @@
 {
   "name": "@ponzujs/server",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "> TODO: description",
   "author": "Jesús Seijas <jseijas@gmail.com>",
   "homepage": "",
@@ -26,8 +26,8 @@
     "prettier": "^3.2.5"
   },
   "dependencies": {
-    "@ponzujs/core": "^0.0.5",
-    "@ponzujs/security": "^0.0.5",
+    "@ponzujs/core": "^0.0.6",
+    "@ponzujs/security": "^0.0.6",
     "express": "^4.18.3",
     "swagger-jsdoc": "^6.2.8",
     "swagger-ui-express": "^5.0.0"

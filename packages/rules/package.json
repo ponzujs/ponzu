@@ -1,6 +1,6 @@
 {
   "name": "@ponzujs/rules",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "> TODO: description",
   "author": "Jesús Seijas <jseijas@gmail.com>",
   "homepage": "",
@@ -26,9 +26,9 @@
     "prettier": "^3.2.5"
   },
   "dependencies": {
-    "@ponzujs/core": "^0.0.5",
-    "@ponzujs/eval": "^0.0.5",
-    "@ponzujs/fun": "^0.0.5",
+    "@ponzujs/core": "^0.0.6",
+    "@ponzujs/eval": "^0.0.6",
+    "@ponzujs/fun": "^0.0.6",
     "exceljs": "^4.4.0"
   },
   "publishConfig": {
